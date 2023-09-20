@@ -69,3 +69,4 @@ if __name__ == "__main__":
     with open('config.yaml') as fy:
         data = yaml.safe_load(fy)
     download_files(data["ip"], data["user"], data["passwd"], "/home/user2/folder_stat/stat.txt", "stat.txt" )
+    
